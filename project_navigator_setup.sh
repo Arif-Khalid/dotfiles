@@ -1,6 +1,4 @@
 #!/bin/bash
-# This is an example of a setup.sh file you can use for setting up your respective repositories
-SESH="project_navigator"
 DIR_PATH="~/.project_navigator"
 tmux has-session -t $SESH 2>/dev/null
 
