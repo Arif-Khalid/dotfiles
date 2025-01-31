@@ -1,4 +1,5 @@
 #!/bin/bash
+SESH="project_navigator"
 DIR_PATH="~/.project_navigator"
 tmux has-session -t $SESH 2>/dev/null
 
