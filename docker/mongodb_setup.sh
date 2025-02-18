@@ -8,4 +8,5 @@ if [[ "$CONTAINER_STATUS" == "$CONTAINER_MISSING" ]]; then
     docker run --name $CONTAINER_NAME -p 27017:27017 -d mongodb/mongodb-community-server:latest
 fi
 
+echo "Attaching to $CONTAINER_NAME docker container..."
 docker attach $CONTAINER_NAME
